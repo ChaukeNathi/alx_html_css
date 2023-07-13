@@ -61,6 +61,7 @@ main
     height: inherit;
     margin-top: 10px;
     padding: 5px;
+	background-color: rgb(83, 183, 246);
 }
 
 main section
@@ -71,7 +72,7 @@ main section
     justify-content: center;
 }
 
-#hero-section div
+#Banner section div
 {
     border: 1px solid black;
     width: 20%;
@@ -80,23 +81,40 @@ main section
 
 }
 
-#hero-section div h1
+#Banner section div h1
 {
     border: 1px solid black;
     margin: 0;
     text-align: center;
 }
 
-#hero-section div p
+#Banner section div p
 {
     border: 1px solid black;
     margin: 0;
     text-align: center;
 }
 
-#hero-section div button
+#Banner section div button
 {
     border: 1px solid black;
     position: absolute;
     
+}
+
+article
+{
+	flex: 2;
+	overflow-y: auto;
+}
+
+aside
+{
+	flex: 1;
+	overflow-y: auto;
+}
+
+footer 
+{
+	background-color: gray);
 }

@@ -228,6 +228,11 @@
     margin-top: 10px;
 
   }
+
+  nav .nav-item + .nav-item {
+    margin-top: 10px;
+}
+
   
   .nav .nav-link {
     display: block;
